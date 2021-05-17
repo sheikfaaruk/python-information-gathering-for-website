@@ -2,6 +2,15 @@ import socket
 import sys
 import whois
 
+h="""+---------------------------------------------------------------+
+|                Information Gathering                          |
+|               using python any website                        |
+|                    version--0.0.1                             |
+|                                                               |
+|                                        by M.Sheik Faaruk      |
++---------------------------------------------------------------+"""
+
+print(h)
 website = input("Enter the website ")
 web_site = f"{website}"
 print("-"*60)
